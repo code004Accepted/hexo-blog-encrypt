@@ -15,8 +15,8 @@ const defaultConfig = {
   'wrong_hash_message': 'OOPS, these decrypted content may changed, but you can still have a look.',
 };
 
-const keySalt = textToArray('hexo-blog-encrypt的作者们都是大帅比!');
-const ivSalt = textToArray('hexo-blog-encrypt是地表最强Hexo加密插件!');
+const keySalt = textToArray('PzVDwPDF9vBnMdsY;MPI?4ON,*哦不dsMZG;?gg/]2SjOcR9R6ZUIag;Xi[iKr]U');
+const ivSalt = textToArray('QKgI.aQkH9|gu?dUU9vJmJ!u|X%?>啊这pgC.i<;}~]OZW)3uq),9vM{6PLSrnCh');
 
 hexo.extend.filter.register('after_post_render', (data) => {
   const tagEncryptPairs = [];
